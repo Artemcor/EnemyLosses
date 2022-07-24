@@ -57,7 +57,7 @@ class LossCategoryViewController: UIViewController {
                 if values is Int {
                     return String(values as! Int)
                 }
-                return values as! String
+                return values as? String ?? ""
             }
             
             equipmentModel.forEach({
