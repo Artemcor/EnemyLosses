@@ -8,24 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		4207AE76287AD4190003B4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE75287AD4190003B4E6 /* AppDelegate.swift */; };
-		4207AE78287AD4190003B4E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE77287AD4190003B4E6 /* SceneDelegate.swift */; };
-		4207AE7A287AD4190003B4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE79287AD4190003B4E6 /* ViewController.swift */; };
+		4207AE7A287AD4190003B4E6 /* LossCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE79287AD4190003B4E6 /* LossCategoryViewController.swift */; };
 		4207AE7D287AD4190003B4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4207AE7B287AD4190003B4E6 /* Main.storyboard */; };
-		4207AE80287AD4190003B4E6 /* EnemyLoss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE7E287AD4190003B4E6 /* EnemyLoss.xcdatamodeld */; };
 		4207AE82287AD41A0003B4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4207AE81287AD41A0003B4E6 /* Assets.xcassets */; };
 		4207AE85287AD41A0003B4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4207AE83287AD41A0003B4E6 /* LaunchScreen.storyboard */; };
+		4207AE8D287B1BED0003B4E6 /* LossCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE8C287B1BED0003B4E6 /* LossCategoryCell.swift */; };
+		4207AE8F287B2C3E0003B4E6 /* EnemyLossModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE8E287B2C3E0003B4E6 /* EnemyLossModel.swift */; };
+		4207AE91287B2DC70003B4E6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE90287B2DC70003B4E6 /* APIService.swift */; };
+		4207AE97287B61DF0003B4E6 /* GitHubResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207AE96287B61DF0003B4E6 /* GitHubResponseModel.swift */; };
+		421C34362885E53900A271AF /* GeneralApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C34352885E53900A271AF /* GeneralApplicationCoordinator.swift */; };
+		421C34392885E65E00A271AF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C34382885E65E00A271AF /* Router.swift */; };
+		421C343C2885E67D00A271AF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C343B2885E67D00A271AF /* MainRouter.swift */; };
+		421C343E2885E74900A271AF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C343D2885E74900A271AF /* Coordinator.swift */; };
+		421C34412885E7F200A271AF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C34402885E7F200A271AF /* MainCoordinator.swift */; };
+		421C34452887457100A271AF /* LossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C34442887457100A271AF /* LossViewController.swift */; };
+		4244BC9628885D34000A07B0 /* Extension+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4244BC9528885D34000A07B0 /* Extension+Encodable.swift */; };
+		424706252889DD0B00A0E888 /* PersonnelLossModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424706242889DD0B00A0E888 /* PersonnelLossModel.swift */; };
+		4254BDC92889E5EC00968F07 /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254BDC82889E5EC00968F07 /* Extension+Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4207AE72287AD4190003B4E6 /* EnemyLoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnemyLoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4207AE75287AD4190003B4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4207AE77287AD4190003B4E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4207AE79287AD4190003B4E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4207AE79287AD4190003B4E6 /* LossCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossCategoryViewController.swift; sourceTree = "<group>"; };
 		4207AE7C287AD4190003B4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4207AE7F287AD4190003B4E6 /* EnemyLoss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnemyLoss.xcdatamodel; sourceTree = "<group>"; };
 		4207AE81287AD41A0003B4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4207AE84287AD41A0003B4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4207AE86287AD41A0003B4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4207AE8C287B1BED0003B4E6 /* LossCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossCategoryCell.swift; sourceTree = "<group>"; };
+		4207AE8E287B2C3E0003B4E6 /* EnemyLossModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyLossModel.swift; sourceTree = "<group>"; };
+		4207AE90287B2DC70003B4E6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4207AE96287B61DF0003B4E6 /* GitHubResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubResponseModel.swift; sourceTree = "<group>"; };
+		421C34352885E53900A271AF /* GeneralApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralApplicationCoordinator.swift; sourceTree = "<group>"; };
+		421C34382885E65E00A271AF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		421C343B2885E67D00A271AF /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		421C343D2885E74900A271AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		421C34402885E7F200A271AF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		421C34442887457100A271AF /* LossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossViewController.swift; sourceTree = "<group>"; };
+		4244BC9528885D34000A07B0 /* Extension+Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Encodable.swift"; sourceTree = "<group>"; };
+		424706242889DD0B00A0E888 /* PersonnelLossModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelLossModel.swift; sourceTree = "<group>"; };
+		4254BDC82889E5EC00968F07 /* Extension+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Dictionary.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +81,90 @@
 			isa = PBXGroup;
 			children = (
 				4207AE75287AD4190003B4E6 /* AppDelegate.swift */,
-				4207AE77287AD4190003B4E6 /* SceneDelegate.swift */,
-				4207AE79287AD4190003B4E6 /* ViewController.swift */,
+				421C34372885E5D400A271AF /* Coordinators */,
+				421C343A2885E66500A271AF /* Router */,
+				4207AE95287B2E620003B4E6 /* Controllers */,
+				4207AE92287B2E1D0003B4E6 /* Cells */,
+				4207AE93287B2E300003B4E6 /* Networking */,
+				4207AE94287B2E450003B4E6 /* Models */,
+				4244BC9828885D56000A07B0 /* Helpers */,
 				4207AE7B287AD4190003B4E6 /* Main.storyboard */,
 				4207AE81287AD41A0003B4E6 /* Assets.xcassets */,
 				4207AE83287AD41A0003B4E6 /* LaunchScreen.storyboard */,
 				4207AE86287AD41A0003B4E6 /* Info.plist */,
-				4207AE7E287AD4190003B4E6 /* EnemyLoss.xcdatamodeld */,
 			);
 			path = EnemyLoss;
+			sourceTree = "<group>";
+		};
+		4207AE92287B2E1D0003B4E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4207AE8C287B1BED0003B4E6 /* LossCategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4207AE93287B2E300003B4E6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4207AE90287B2DC70003B4E6 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4207AE94287B2E450003B4E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4207AE8E287B2C3E0003B4E6 /* EnemyLossModel.swift */,
+				4207AE96287B61DF0003B4E6 /* GitHubResponseModel.swift */,
+				424706242889DD0B00A0E888 /* PersonnelLossModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4207AE95287B2E620003B4E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4207AE79287AD4190003B4E6 /* LossCategoryViewController.swift */,
+				421C34442887457100A271AF /* LossViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		421C34372885E5D400A271AF /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				421C343D2885E74900A271AF /* Coordinator.swift */,
+				421C34352885E53900A271AF /* GeneralApplicationCoordinator.swift */,
+				421C34402885E7F200A271AF /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		421C343A2885E66500A271AF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				421C34382885E65E00A271AF /* Router.swift */,
+				421C343B2885E67D00A271AF /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4244BC9728885D46000A07B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4244BC9528885D34000A07B0 /* Extension+Encodable.swift */,
+				4254BDC82889E5EC00968F07 /* Extension+Dictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4244BC9828885D56000A07B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4244BC9728885D46000A07B0 /* Extensions */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +238,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4207AE7A287AD4190003B4E6 /* ViewController.swift in Sources */,
-				4207AE80287AD4190003B4E6 /* EnemyLoss.xcdatamodeld in Sources */,
+				4207AE7A287AD4190003B4E6 /* LossCategoryViewController.swift in Sources */,
+				4244BC9628885D34000A07B0 /* Extension+Encodable.swift in Sources */,
+				4207AE8F287B2C3E0003B4E6 /* EnemyLossModel.swift in Sources */,
+				421C34392885E65E00A271AF /* Router.swift in Sources */,
+				4207AE8D287B1BED0003B4E6 /* LossCategoryCell.swift in Sources */,
 				4207AE76287AD4190003B4E6 /* AppDelegate.swift in Sources */,
-				4207AE78287AD4190003B4E6 /* SceneDelegate.swift in Sources */,
+				424706252889DD0B00A0E888 /* PersonnelLossModel.swift in Sources */,
+				4254BDC92889E5EC00968F07 /* Extension+Dictionary.swift in Sources */,
+				421C34452887457100A271AF /* LossViewController.swift in Sources */,
+				421C34362885E53900A271AF /* GeneralApplicationCoordinator.swift in Sources */,
+				421C343E2885E74900A271AF /* Coordinator.swift in Sources */,
+				4207AE91287B2DC70003B4E6 /* APIService.swift in Sources */,
+				421C34412885E7F200A271AF /* MainCoordinator.swift in Sources */,
+				421C343C2885E67D00A271AF /* MainRouter.swift in Sources */,
+				4207AE97287B61DF0003B4E6 /* GitHubResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +402,11 @@
 				DEVELOPMENT_TEAM = Z99V4XXVDP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EnemyLoss/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Enemy Losses";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +432,11 @@
 				DEVELOPMENT_TEAM = Z99V4XXVDP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EnemyLoss/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Enemy Losses";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +448,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,19 +474,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4207AE7E287AD4190003B4E6 /* EnemyLoss.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4207AE7F287AD4190003B4E6 /* EnemyLoss.xcdatamodel */,
-			);
-			currentVersion = 4207AE7F287AD4190003B4E6 /* EnemyLoss.xcdatamodel */;
-			path = EnemyLoss.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4207AE6A287AD4190003B4E6 /* Project object */;
 }
