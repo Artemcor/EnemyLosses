@@ -4,6 +4,10 @@
 
 Application where you can see our enemy both equipment and perssonel losses
 
+## API Calls
+
+App uses losses data from: https://github.com/MacPaw/2022-Ukraine-Russia-War-Dataset/tree/main/data
+
 ## Architecture concepts
 
 * MVC + Coordinator
